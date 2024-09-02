@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="description" content="google descrição">
+    <meta name="author" content="Alice Pires Gonçalves">
+    <meta property="og:title" content="Título da Página">
+    <meta property="og:description" content="Descrição da página">
+    <meta property="og:image" content="img/unhaspri.jpg">
+    <meta property="og:url" content="mesmo link do pagees">
+    <meta property="og:type" content="website">
+
+</head>
+<body>
+    <header>
+      <div class="container"> </div>
+        <div class="header-content">
+        <div class="header-logo"><a>Color Nails</a> 
+         </div>
+        
+         
+        <div>
+            <a class="nav-link active" href="#formulario">Entrar Criar conta</a>
+        </div>
+      </div>
+    </header>
+        <div class="header-content">
+            <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#explorar">Explorar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#cores">Cores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cuidados">Cuidados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#formatos">Formatos</a>
+                    </li>
+                </ul>
+        </div>
+      
+           </nav>
+        </div>
+
+        <form class="search-form">
+                <img src="img/perfil.jpg " alt="perfil" width="30" height="30">
+            <input type="text" placeholder="" name="search">
+                <img src="img/lupa.png" alt="pesquisa" width="15" height="15">
+</form>
+            <main>
+        <div class="cards">
+            <div class="card">
+                <h1> Cores</h1>
+                    <img src="img/unhasverdes.jpg" alt="galeria-cores">
+                    <p> Em princípio, você pode seguir o critério de cores neutras,
+                    como os nudes, para qualquer cor de roupa.
+                    Além disso, considere também a textura dos tecidos. Assim, para um
+                    vestido com muito brilho, aposte em esmaltes foscos.
+                    Já os looks estampados podem ser complementados com unhas
+                    multicoloridas. </p>
+                <!-- Button to Open the Modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal"> Detalhes</button>
+                <!-- The Modal -->
+            <div class="modal" id="myModal">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Detalhes</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                <!-- Modal body -->
+            <div class="modal-body">
+                    <img src="img/unhasverdes.jpg" alt="galer=ia-cores-modal">
+                <h1>Qual cor de esmalte que combina com tudo?</h1>
+                    <p>O esmalte bege tem como característica uma sutileza única.
+                                    Se apresenta como um aliado neutro para expressar elegância, se integrando
+                                    facilmente em qualquer paleta de cores.
+                                    O tom é discreto, ao mesmo tempo que é sofisticado. Além disso, o bege é atemporal,
+                                    não se apegando às tendências efêmeras.</p>
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Voltar</button>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        <div class="card">
+                <h1 id="cuidados">Bases </h1>
+                    <img src="img/bases.jpg" alt="bases-galeria">
+                    <p> O uso da base vai além da questão estética,
+                    A base de unha também serve como ajuda extra quando o assunto é proteger, fortalecer e
+                    nivelar as unhas. </p>
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal2"> Detalhes </button>
+                <!-- The Modal -->
+            <div class="modal" id="myModal2">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Detalhes</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+                <!-- Modal body -->
+                    <div class="modal-body">
+                    <img src="img/bases.jpg" alt="bases-galeria.modal">
+                <h1>Quais os benefícios da base na unha?</h1>
+                    <p> Por que devo usar a base de unha antes da esmaltação?
+                                    O uso da base vai além da questão estética, a base protege e fortalece as unhas
+                                    para receber os solventes químicos que compõem os esmaltes, que muitas vezes agridem
+                                    as unhas, deixando-as fracas e quebradiças. A base de unha também serve como ajuda
+                                    extra quando o assunto é proteger, fortalecer e nivelar as unhas.
+                    </p>
+            </div>
+                <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Voltar</button>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="card">
+                <h1>Materiais </h1>
+                    <img src="img/materiais.jpg" alt="materiais-galeria">
+                    <p> O ideal é que você tenha o seu próprio material.
+                    Dicas
+                    dos principais materiais “Como esterilizar?” </p>
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal3">Detalhes </button>
+                <!-- The Modal -->
+            <div class="modal" id="myModal3">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Detalhes</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+                <!-- Modal body -->
+            <div class="modal-body">
+                    <img src="img/materiais.jpg" alt="modal-galeria-modal">
+                <h1>Os principais materiais</h1>
+                    <p>Lixas. As lixas são ótimas para ajudar a moldar os formatos das unhas da sua
+                                    cliente, por isso são essenciais na maleta de uma manicure iniciante ou experiente.
+                                    Palito.
+                                    Algodão.
+                                    Espátula.
+                                    Removedor.
+                                    Alicate de cutícula.
+                                    Alicate de corte/ Cortador de unha.</p>
+            </div>
+                <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Voltar</button>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="card">
+                <h1>Formatos</h1>
+                    <img src="img/formatosmaos.jpg" alt="formatos maos - galeria">
+                    <p> Quadrada: Ideal para dedos longo e grossos </p>
+                    <p> Oval: Ideal para dedos curtos e grossos </p>
+                    <p> Ballerina e stileto: Ideal para dedos longos </p>
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal4"> Detalhes </button>
+                <!-- The Modal -->
+            <div class="modal" id="myModal4">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Detalhes</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+                <!-- Modal body -->
+            <div class="modal-body">
+                    <img src="img/formatosmaos.jpg" alt="formatos - unhas - modal">
+                    <p>Quadrada: Ideal para dedos longo e grossos; Oval: Ideal para dedos curtos e grossos;
+                     Ballerina e stileto: Ideal para dedos longos </p>
+            </div>
+                <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Voltar</button>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="card">
+                <h1 id="formatos">Qual é o formato da sua unha?</h1>
+                    <img src="img/formatospes.jpg" alt="formatos pés - galeria">
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal5"> Detalhes </button>
+                <!-- The Modal -->
+            <div class="modal" id="myModal5">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Detalhes</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+                <!-- Modal body -->
+            <div class="modal-body">
+                    <img src="img/formatospes.jpg" alt="formatos pés - modal">
+            </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Voltar</button>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="card">
+                <h1>Qual é o formato da sua unha?</h1>
+                    <img src="img/formatospes2.jpg" alt="formatos pés 2 - galeria">
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal6"> Detalhes</button>
+                <!-- The Modal -->
+            <div class="modal" id="myModal6">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                <h4 class="modal-title">Detalhes</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+                <!-- Modal body -->
+            <div class="modal-body">
+                    <img src="img/formatospes2.jpg" alt="formatos pés 2 - galeria - modal">
+            </div>
+                <!-- Modal footer -->
+            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Voltar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div>
+            <form>
+                <h1 id="formulario"> Editar perfil</h1>
+                Nome<br><input type="text" placeholder="Nome" name="Seu nome"><br>
+                E-mail <br><input type="email" placeholder="E-mail" name="Seu e-mail"><br>
+                Senha <br><input type="password" placeholder="Senha" name="Sua senha "><br>
+                Interesses <br><input type="text" placeholder="Interesses" name="o que é interessante para você?"><br>
+                Nome de usuário<br><input type="text" placeholder="Apelido" name="Nome de usuáruio"><br>
+                Gênero <br><input type="text" placeholder="Gênero " name="Feminino/Masculino"><br>
+                Data de nascimento <br><input type="date" name="Sua data de nascimento">
+              </form>
+        </div>
+        <div class="CARDS">
+            <div class="CARD">
+                <img src="img/unhas2.jpeg" alt="foto pág princ. 2">
+                <p id="explorar"> • Cuide da suas unhas! </p>
+                   <p> • Aumenta a autoestima </p> 
+                   <p> • Causam uma boa impressão • Transmite limpeza e
+                    higiene </p>
+                     <p> • Mostra sua personalidade</p>
+            </div>
+            <div class="CARD">
+                <img src="img/unhaspri.jpg" alt="foto pág princ. 1">
+                <h1>MODELOS DE UNHAS</h1>
+                <a href="galeria.html"> clique para ver </a>
+                <p>Curso Online: nailscolor.com</p>
+            </div>
+        </div>
+            <h1 id="cores">Cores</h1>
+            <p> Combinar a cor do esmalte com a roupa pode ser divertido e realçar o seu estilo.
+                Vou te dar algumas dicas de cores de esmalte que harmonizam bem com diferentes tipos de roupas:
+                Vermelho: Um clássico! Esmalte vermelho é versátil e combina com muitos trajes.
+                Seja um vestido preto, azul ou até mesmo estampado, unhas vermelhas sempre adicionam um toque de
+                elegância e ousadia.
+                Nude: Os tons nude são perfeitos para um visual discreto e sofisticado.</p>
+            <p> Escolha um tom que se assemelhe à cor da sua pele para um estilo monocromático ou experimente variações
+                como nude rosado, amarelado ou acinzentado.
+                Marrom Acinzentado: Esse tom neutro é uma escolha infalível. </p>
+            <p> Ele combina com absolutamente tudo e pode ser usado tanto em ocasiões formais quanto informais.
+                Branquinhos e Naturais: Unhas bem cuidadas não precisam necessariamente de esmalte colorido.
+                Um simples esmalte transparente ou branquinho pode dar um brilho sutil e natural às unhas.
+                Lembre-se de que a harmonia das cores é importante.
+                Se você quiser se aprofundar, conheça o círculo das cores e a teoria das cores para criar combinações
+                agradáveis aos olhos.
+                E, claro, divirta-se experimentando diferentes cores de esmalte com suas roupas!</p>
+            <img src="img/paleta.jpg" alt="foto pág extra" width="400" height="400">
+    </main>
+    <footer>
+                 <img src="img/email.jpg" alt="e-mail footer" width="90" height="70"> colornailss@ajuda.com
+                 <img src="img/pint.jpg" alt="pinterest footer" width="80" height="80"> ColorNails 
+                 <img src="img/insta.jpg" alt="instagram footer" width="50" height="50">  @colornails
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
